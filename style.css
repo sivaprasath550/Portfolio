@@ -117,7 +117,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background-color: #2b3a42;
+   background: linear-gradient(to right , #04045e, #3e0776);
     padding: 30px;
     border: 1px solid #1c2a35;
     border-radius: 12px;

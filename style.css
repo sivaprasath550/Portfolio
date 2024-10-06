@@ -199,42 +199,50 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
-/* Skills Section */
-.skills-section {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-    border-radius: 10px;
-    margin: 40px auto;
-    width: fit-content;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.languages-section {
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px 0;
 }
 
-.skills-icons {
-    display: flex;
-    justify-content: center; /* Centers all icons horizontally */
-    gap: 30px;
-    flex-wrap: wrap; /* Ensures that the icons wrap if they overflow the container */
-    margin-top: 20px;
-    max-width: 100%; /* Adjust width so that items remain centered */
+h2 {
+    font-size: 36px;
+    color: #333;
 }
 
-.skill {
+.languages {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center; /* Centers text under each logo */
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-.skill img {
-    max-width: 50px;
-    height: auto;
+.language {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.skill p {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #fff; /* Customize this to match your design */
-    text-align: center; /* Centers the text directly below the icon */
+.language img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.language p {
+    font-size: 18px;
+    color: #555;
+}
+
+.language:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }

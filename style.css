@@ -1,4 +1,4 @@
-
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ h1, h2, h3 {
     margin-bottom: 20px;
 }
 
-
+/* Header Styles */
 header {
     background: rgba(255, 255, 255, 0.1);
     padding: 80px 0;
@@ -34,19 +34,20 @@ header h1 {
 }
 
 .gradient-text {
-    background: linear-gradient(45deg, #ff40f2, #ff1744); 
+    background: linear-gradient(45deg, #ff4081, #ff1744); /* Pink to Red gradient */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/* Tagline Styles */
 header .tagline {
-    font-size: 1.2rem; 
-    font-weight: bold;
-    color: bisque; 
+    font-size: 1.4rem; /* Increased font size */
+    font-weight: bold; /* Make the text bold */
+    color: #ff5722; /* Change the color to orange */
     margin-top: 10px;
 }
 
-
+/* Navigation Styles */
 nav ul {
     list-style: none;
     margin-top: 20px;
@@ -70,31 +71,32 @@ nav ul li a:hover {
     background-color: #ff5722;
 }
 
-
+/* About Section */
 .about-section {
-    padding: 20px 20px; 
+    padding: 20px 20px; /* Reduced padding */
     text-align: center;
-    background: linear-gradient(135deg, #3a6073, brown); 
+    background: linear-gradient(135deg, #3a6073, #3a5c40); /* Gradient background */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    margin: 40px auto; 
-    width: fit-content; 
-    max-width: 90%; 
+    margin: 40px auto; /* Center the box */
+    width: fit-content; /* Adjust the width to fit the content */
+    max-width: 90%; /* Ensure it doesn't exceed 90% of the parent */
+}
 
 .about-section h2 {
     font-size: 2.8rem;
     margin-bottom: 30px;
-    color: #fff; 
+    color: #fff; /* Change to white */
 }
 
 .about-section p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     line-height: 1.8;
-    color: #fff; 
+    color: #fff; /* Change to white */
 }
 
-
+/* Projects Section */
 .projects-section {
     padding: 60px 20px;
     background: #243b55;
@@ -115,7 +117,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background: linear-gradient(to right , #04045e, #3e0776);
+    background-color: #2b3a42;
     padding: 30px;
     border: 1px solid #1c2a35;
     border-radius: 12px;
@@ -130,7 +132,7 @@ nav ul li a:hover {
 }
 
 .project-card h3 {
-    color: chocolate;
+    color: #ff5722;
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
@@ -140,7 +142,7 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
-
+/* Contact Section */
 .contact-section {
     padding: 60px 20px;
     background-color: #141e30;
@@ -185,7 +187,7 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
-
+/* Footer */
 footer {
     padding: 20px 0;
     background-color: #1a252f;
@@ -197,8 +199,7 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
-
-.skills-section {
+skills-section {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1); 
     border-radius: 10px;
@@ -225,3 +226,4 @@ footer p {
     font-size: 1.2rem;
     color: #fff; 
 }
+  

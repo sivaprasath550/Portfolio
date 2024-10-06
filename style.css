@@ -199,3 +199,32 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
+/* Skills Section */
+.skills-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 10px;
+    margin: 40px auto;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.skill {
+    display: inline-block;
+    text-align: center;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fff; /* Customize this to match your design */
+}
+

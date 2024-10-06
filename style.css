@@ -1,0 +1,201 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #1a1a2e, #16213e, #0f3460, #53354a);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+header {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 80px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #ff40f2, #ff1744); /* Pink to Red gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Tagline Styles */
+header .tagline {
+    font-size: 1.2rem; /* Increased font size */
+    font-weight: bold;
+    color: bisque; /* Change the color to orange */
+    margin-top: 10px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff5722;
+}
+
+/* About Section */
+.about-section {
+    padding: 20px 20px; /* Reduced padding */
+    text-align: center;
+    background: linear-gradient(135deg, #3a6073, brown); /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 40px auto; /* Center the box */
+    width: fit-content; /* Adjust the width to fit the content */
+    max-width: 90%; /* Ensure it doesn't exceed 90% of the parent */
+}
+
+.about-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: #fff; /* Change to white */
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #fff; /* Change to white */
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 20px;
+    background: #243b55;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    background: linear-gradient(to right , #04045e, #3e0776);
+    padding: 30px;
+    border: 1px solid #1c2a35;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s, background-color 0.4s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background-color: #ff5722;
+}
+
+.project-card h3 {
+    color: chocolate;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #ddd;
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #141e30;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.contact-section p {
+    font-size: 1.3rem;
+}
+
+.contact-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    background-color: #ff5722;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #e64a19;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #1a252f;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}

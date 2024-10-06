@@ -212,14 +212,12 @@ footer p {
 
 .skills-icons {
     display: flex;
-    justify-content: center;
     gap: 30px;
     margin-top: 20px;
 }
 
 .skill {
     display: inline-block;
-    text-align: center;
 }
 
 .skill p {

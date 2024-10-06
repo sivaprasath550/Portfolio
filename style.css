@@ -205,17 +205,18 @@ footer p {
     background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
     border-radius: 10px;
     margin: 40px auto;
+    width: fit-content;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .skills-icons {
     display: flex;
-    justify-content: space-around; /* Distributes space evenly between the icons */
+    justify-content: center; /* Centers all icons horizontally */
     gap: 30px;
     flex-wrap: wrap; /* Ensures that the icons wrap if they overflow the container */
-    max-width: 600px; /* Limits the total width of the container */
     margin-top: 20px;
+    max-width: 100%; /* Adjust width so that items remain centered */
 }
 
 .skill {
@@ -223,6 +224,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center; /* Centers text under each logo */
 }
 
 .skill img {
@@ -234,4 +236,5 @@ footer p {
     margin-top: 10px;
     font-size: 1.2rem;
     color: #fff; /* Customize this to match your design */
+    text-align: center; /* Centers the text directly below the icon */
 }

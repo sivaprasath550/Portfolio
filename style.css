@@ -69,16 +69,16 @@ nav ul li a:hover {
     background-color: #ff5722;
 }
 
-/* About Section */
+
 .about-section {
     padding: 20px 20px; /* Reduced padding */
     text-align: center;
-    background: linear-gradient(135deg, #3a6073, brown); /* Gradient background */
+    background: linear-gradient(135deg, #3a6073, brown);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    margin: 40px auto; /* Center the box */
-    width: fit-content; /* Adjust the width to fit the content */
-    max-width: 90%; /* Ensure it doesn't exceed 90% of the parent */
+    margin: 40px auto; 
+    width: fit-content; 
+    max-width: 90%; 
 }
 
 .about-section h2 {
@@ -91,10 +91,10 @@ nav ul li a:hover {
     font-size: 1.2rem;
     margin-bottom: 20px;
     line-height: 1.8;
-    color: #fff; /* Change to white */
+    color: #fff; 
 }
 
-/* Projects Section */
+
 .projects-section {
     padding: 60px 20px;
     background: #243b55;
@@ -140,7 +140,7 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
-/* Contact Section */
+
 .contact-section {
     padding: 60px 20px;
     background-color: #141e30;
@@ -185,7 +185,7 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
-/* Footer */
+
 footer {
     padding: 20px 0;
     background-color: #1a252f;
@@ -197,7 +197,7 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
-/* Skills Section */
+
 .skills-section {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */

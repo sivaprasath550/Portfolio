@@ -32,6 +32,14 @@ header h1 {
     letter-spacing: 2px;
 }
 
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
 .gradient-text {
     background: linear-gradient(45deg, #ff40f2, #ff1744); 
     -webkit-background-clip: text;

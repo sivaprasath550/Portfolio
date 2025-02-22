@@ -233,3 +233,12 @@ footer p {
     font-size: 1.2rem;
     color: #fff; 
 }
+
+.red-color {
+        color: red;
+        text-decoration: none; 
+}
+
+red-color:hover {
+text-decoration: underline;
+}

@@ -59,7 +59,7 @@ const itemVariants = {
 };
 
 const metrics = [
-  { label: 'MERGED PR · SUPABASE 35k★', value: null, text: 'Merged' },
+  { label: 'OPEN PR · SUPABASE 35k★', value: null, text: 'Under Review' },
   { label: 'CGPA', end: 9.485, decimals: 3, suffix: ' / 10' },
   { label: 'DSA SOLVED', end: 300, decimals: 0, suffix: '+' },
   { label: 'CODEFORCES', end: 1300, decimals: 0, suffix: '+' },

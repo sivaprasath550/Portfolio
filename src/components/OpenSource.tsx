@@ -65,7 +65,7 @@ export default function OpenSource() {
             </div>
             <div>
               <div className="font-mono text-xs uppercase tracking-[0.12em] text-[var(--color-trace)] mb-3">
-                SHIPPED
+                SUBMITTED
               </div>
               <p className="text-sm text-[var(--color-ink)]/80 leading-relaxed">
                 {data.phases.shipped}
